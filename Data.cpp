@@ -1,33 +1,38 @@
 //class implementattion 
 #include "Data.h"
+#include <iostream>
+
+using namespace std;
+
 Data::Data () //::binary scope resolution operator 
-{
-x=0;
-y=0.0;
-}
+	{
+		x=0;
+		y=0.0;
+	}
 
 Data::Data (int a, float b)
-{
-x=a;
-y=b;
-}
-
-int Data::getX ()
-{
-return x;
-}
-
-float Data::getY ()
-{
-return y;
-}
+	{
+		x=a;
+		y=b;
+	}
 
 void Data::setX (int a)
-{
-x=a;
-}
+	{
+		x=a;
+	}
 
-void Data::setY (float a)
-{
-y=a;
-}
+int Data::getX ()
+	{
+		return x;
+	}
+
+
+void Data::setY (float b)
+	{
+		y=b;
+	}
+
+float Data::getY ()
+		{
+	return y;
+		}

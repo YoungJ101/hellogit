@@ -3,18 +3,21 @@
 #define DATA_H //Header guard
 
 class Data
-{
-private;
+	{
+		private:
 
-int x;
-float y;
+		int x;
+		float y;
 
-public;
-Data ()
-void setY (float a);
-Data (int a, float b);
-int getX ();
-float getY ();
-void setX (int a);
-} ;
+		public:
+		
+		Data ();
+		Data (int a, float b);
+		void setX (int a);
+		int getX ();
+		void setY (float b);
+		float getY ();
+	
+
+};
 #endif
